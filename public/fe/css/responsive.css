@@ -1,0 +1,194 @@
+@media (max-width: 1000px) {
+	h2.nameCtity {
+		width: 100%;
+		text-align: center;
+	}
+
+}
+@media (max-width: 870px) {
+	header .navbar-nav > li > a {
+		padding: 15px 10px;
+	}
+}
+@media (min-width: 821px) {
+	.menuMobile {
+		display: none;
+	}
+}
+@media (max-width: 820px) {
+	/*Menu Mobile*/
+	.menuMobile {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+		background: rgba(0,0,0,.8);
+		z-index: 999;
+	}
+	.logoMobile {
+		position: absolute;
+		top: 0;
+		width: 80px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.menuMobile--right >ul {
+		position: relative;
+		z-index: 999;
+	}
+	.menuMobile--right {
+		margin-top: 15px;
+		color: #ccc;
+	}
+	.menuMobile--right >ul >li {
+		margin-right: 10px;
+	}
+	.menuMobile--right form input {
+		width: 80px;
+		padding-right: 10px;
+		background: none;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		color: #ccc;
+	}
+	.menuMobile--right form button {
+		background: none;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		color: #ccc;
+	}
+	.main.clearfix {
+	    position: fixed;
+	    top: 2px;
+	    left: 0px;
+	}
+	.dl-menuwrapper:first-child {
+	    margin-right: 100vw;
+	}
+	.dl-menuwrapper button, .dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active {
+	    background: none;
+	    color: #ccc;
+	}
+	.dl-menuwrapper ul {
+	    background: #000;
+	}
+	.dl-menuwrapper .dl-menu {
+	    margin: 3px 0 0 0;
+	}
+	.dl-menuwrapper li.dl-back:after, .dl-menuwrapper li > a:not(:only-child):after {
+		content: "";
+	    display: block;
+	    position: absolute;
+	    top: 39%;
+	    right: 15px;
+	    width: 0;
+	    height: 0;
+	    border-top: 5px solid transparent;
+	    border-bottom: 5px solid transparent;
+	    border-left: 5px solid #ccc;
+	}
+	.dl-menuwrapper li.dl-back:after {
+	    left: 15px;
+	    color: rgba(212,204,198,0.3);
+	    -webkit-transform: rotate(180deg);
+	    transform: rotate(180deg);
+	}
+	.dl-menuwrapper li a {
+		font-size: 14px;
+	}
+
+	/*END Menu Mobile*/
+
+
+	h3.nameCitySub {
+		width: 100%;
+		text-align: center;
+	}
+	.banner, .block_02, .block_03, .block_03, .block_04, .footer {
+		clip-path: inherit;
+	}
+	.quotesBox li:last-child {
+	    padding-left: 0px;
+	    width: 73%;
+	}
+	header {
+		display: none;
+	}
+	.banner {
+		height: 100vh;
+	}
+	h2.nameCtity {
+		font-size: 30px;
+	}
+	.viewMore  {
+		height: 35px;
+	    background: #000;
+	    text-align: center;
+	    display: table;
+	    margin-left: auto;
+	    margin-right: auto;
+	    float: inherit;
+	    color: #fff;
+	    line-height: 35px;
+	}
+	.block_03, .block_04, .banner {
+		margin-top: 0;
+	}
+	.block_02, .block_03, .block_04 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+@media (max-width: 755px) {
+	.quotesBox li:last-child {
+		max-width: 70%;
+	}
+	p.block_01--text {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.footer-left {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 755px) {
+	.quotesBox li {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.quotesBox li:first-child {
+		width: inherit;
+		height: inherit;
+		overflow: inherit;
+		text-align: center;
+	}
+	.quotesBox li:first-child img {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+	}
+}
+@media (max-width: 668px) {
+	h3.nameCitySub {
+		top: 56%;
+	}
+}
+@media (max-width: 415px) {
+	h3.nameCitySub {
+		top: 54%;
+	}
+}
+@media (max-width: 376px) {
+	.menuMobile--right form input {
+		width: 70px;
+	}
+	h3.nameCitySub {
+		top: 56%;
+	}
+}
+@media (max-width: 321px) {
+	h3.nameCitySub {
+	    top: 60%;
+	}
+}

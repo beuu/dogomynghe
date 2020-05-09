@@ -1,0 +1,254 @@
+@media (max-width: 1600px) {
+	.btn_block04 {
+		width: calc(50% - 12.5px)
+	}
+}
+@media (max-width: 1480px) {
+	.slider_doitac.owl-carousel .owl-nav .owl-next, .slider_doitac.owl-carousel .owl-nav .owl-prev {
+		display: none;
+	}
+}
+@media (max-width: 1230px) {
+	.qoutes {
+        background: #f3f3f3;
+        border-radius: 5px;
+        padding: 34px 15px;
+        margin-bottom: 34px;
+		margin-top: 0px;
+		width: 97%;
+    margin: auto;
+	}
+	.toivaieg{
+		padding-top: 30px;
+	}
+    .qoutes_content:after, .qoutes_content:before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 50px;
+        position: absolute;
+    }
+    .qoutes_content:before {
+        background: url(../image/quotes_left.png) no-repeat;
+        background-size: contain;
+        top: 9px;
+        left: -100px;
+    }
+    .qoutes_content:after {
+        background: url(../image/quotes_right.png) no-repeat;
+        background-size: contain;
+        top: 11px;
+        right: -100px;
+	}
+	.qoutes_content {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        font-size: 16px;
+        color: #003366;
+    }
+	header .nav_custContent {
+		position: static;
+		transform: none;
+	}
+	header .navbar-right {
+		transform: none;
+		right: 15px;
+		top: 15px;
+	}
+	header .container > .navbar-header {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	header .container > .navbar-header a {
+		float: inherit;
+	}
+	header .navbar .navbar-nav > li > a {
+		z-index: 2;
+	}
+	.search_main {
+	    right: 5px;
+	    top: 8px;
+	    display: block !important;
+	}
+	.col-2-cust img {
+		height: 90px;
+	}
+	.count, .title_bgInfo {
+		font-size: 30px;
+	}
+	.col-4-cust >p.font24, .content_bgInfo {
+		font-size: 20px !important;
+	}
+	.wpx1470 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media (max-width: 992px) {
+	header .container.posiRelative {
+		width: calc(100% - 30px)
+	}
+	header .nav_custContent {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+	.wpx920_width100vh {
+		width: 100%;
+	}
+	.block_04 {
+		border-radius: 0;
+	}
+	.slider_doitac img {
+		height: 75px;
+	}
+	.col-6-cust {
+		width: 100%;
+	}
+	.form-flex .col-4-cust {
+	    width: calc(33.333333% - 15px);
+	}
+	.form-flex .col-8-cust {
+	    width: calc(66.666666% - 7px);
+	}
+	.btn_block04 {
+		height: 45px;
+		line-height: 45px;
+	}
+	.qoutes {
+        background: #f3f3f3;
+    border-radius: 5px;
+    padding: 34px 15px;
+    margin-bottom: 29px;
+    margin-top: 0px;
+    width: 97%;
+    margin: auto;
+    }
+    .qoutes_content:after, .qoutes_content:before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 50px;
+        position: absolute;
+    }
+    .qoutes_content:before {
+        background: url(../image/quotes_left.png) no-repeat;
+        background-size: contain;
+        top: 9px;
+        left: -6%;
+    }
+    .qoutes_content:after {
+        background: url(../image/quotes_right.png) no-repeat;
+        background-size: contain;
+        top: 11px;
+        right: -6%;
+    }
+}
+@media (max-width: 768px) {
+	header .nav_custContent {
+		display: block;
+	}
+	header .navbar-toggle {
+	    position: absolute;
+	    left: 15px;
+	    top: 19px;
+	}
+	header .navbar-right {
+		display: none;
+	}
+	header .nav_custContent {
+		width: 100%;
+	}
+	.sliderInfo--text {
+	    left: 116px;
+	    right: 116px;
+	    padding: 30px 30px;
+	}
+	.col-2-cust img {
+		margin-top: 30px;
+	}
+	.item_flex {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.item_flex:nth-of-type(2) {
+		flex-wrap: wrap;
+	}
+	.block_01 .col-2-cust {
+		width: 50%;
+	}
+	.sliderInfo--text {
+		left: 83px;
+		right: 83px;
+	}
+	.col-md-5--cust {
+	    width: 650px;
+	    height: 345px;
+	    background: #fff;
+	    position: absolute;
+	    /* right: 0; */
+	    /* top: 50%; */
+	    transform: translateY(-50%);
+	    padding: 50px;
+	    position: relative;
+	    transform: inherit;
+	    float: left;
+	    width: 100%;
+	}
+	/* .qoutes {
+        background: #f3f3f3;
+        border-radius: 5px;
+        padding: 34px 15px;
+        margin-bottom: 34px;
+        margin-top: 0px;
+    }
+    .qoutes_content:after, .qoutes_content:before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 50px;
+        position: absolute;
+    }
+    .qoutes_content:before {
+        background: url(../image/quotes_left.png) no-repeat;
+        background-size: contain;
+        top: 9px;
+        left: -100px;
+    }
+    .qoutes_content:after {
+        background: url(../image/quotes_right.png) no-repeat;
+        background-size: contain;
+        top: 11px;
+        right: -100px;
+    } */
+}
+@media (max-width: 530px) {
+	.item_flex--item {
+	    width: calc(50% - 30px);
+	    font-size: 14px;
+	    margin-bottom: 15px;
+	}
+	.btn_block04 {
+		width: 100%;
+	}
+}
+@media (max-width: 410px) {
+	.item_flex--item {
+	    width: calc(100% - 30px);
+	    font-size: 14px;
+	    margin-bottom: 15px;
+	}
+	.block_01 .col-2-cust {
+		width: 100%;
+	}
+}
+@media (max-width: 376px) {
+	.sliderInfo--text {
+		left: 57px;
+		right: 57px;
+		font-size: 12px;
+		padding: 15px;
+	}
+}
